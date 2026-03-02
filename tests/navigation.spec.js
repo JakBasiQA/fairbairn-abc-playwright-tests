@@ -13,7 +13,7 @@ const NAV_ITEMS = [
   'CONTACT',
 ];
 
-test('navigation behaviour: clicking key items changes URL and shows content', async ({ page }) => {
+test(' @smoke navigation behaviour: clicking key items changes URL and shows content', async ({ page }) => {
   await page.goto('/');
 
   const clicks = ['ABOUT US', 'CLASSES', 'CONTACT'];
